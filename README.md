@@ -97,6 +97,18 @@ For the gold passage task:
 *   [https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-train.json](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-train.json)
 *   [https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-dev.tgz](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-dev.tgz)
 
+
+To get gold passage task according to language:
+- [Arabic](language_data/arabic)
+- [Bengali](language_data/bengali)
+- [english](language_data/english)
+- [Finish](language_data/finish)
+- [Indonesian](language_data/indonesian)
+- [Korean](language_data/korean)
+- [Russian](language_data/russian)
+- [Swahili](language_data/swahili)
+- [Telegu](language_data/telegu)
+
 The gold passage training set is about 50MB and the dev set is about 10MB. The
 extra tarball for the dev set contains JSON files that are split along language
 boundaries; these are used for evaluation while the single large JSON dev file
